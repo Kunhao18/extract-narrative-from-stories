@@ -1,0 +1,867 @@
+# ::id 0
+# ::annotator bart-amr
+# ::snt There was once a little Kid whose growing horns made him think he was a grown-up Billy Goat and able to take care of himself.
+(z0 / kid
+    :mod (z1 / little)
+    :time (z2 / once)
+    :poss (z3 / horn
+              :ARG1-of (z4 / grow-01)
+              :ARG0-of (z5 / make-02
+                           :ARG1 (z6 / think-01
+                                     :ARG0 z0
+                                     :ARG1 (z7 / and
+                                               :op1 (z8 / grown-up
+                                                        :domain z0)
+                                               :op2 (z9 / possible-01
+                                                        :ARG1 (z10 / care-03
+                                                                   :ARG0 z0
+                                                                   :ARG1 z0))))))
+    :mod (z11 / goat
+              :wiki "Billy_Goat"
+              :name (z12 / name
+                         :op1 "Billy"
+                         :op2 "Goat")))
+
+# ::id 1
+# ::annotator bart-amr
+# ::snt So one evening when the flock started home from the pasture and his mother called, the Kid paid no heed and kept right on nibbling the tender grass.
+(z0 / cause-01
+    :ARG1 (z1 / and
+              :op1 (z2 / heed-01
+                       :polarity -
+                       :ARG0 (z3 / kid)
+                       :time (z4 / start-01
+                                 :ARG0 (z5 / flock)
+                                 :ARG1 (z6 / home)
+                                 :source (z7 / pasture)))
+              :op2 (z8 / call-02
+                       :ARG0 (z9 / person
+                                 :ARG0-of (z10 / have-rel-role-91
+                                               :ARG1 z3
+                                               :ARG2 (z11 / mother)))
+                       :ARG1 z3)
+              :time (z12 / date-entity
+                         :dayperiod (z13 / evening)
+                         :mod (z14 / one))))
+
+# ::id 2
+# ::annotator bart-amr
+# ::snt A little later when he lifted his head, the flock was gone.
+(z0 / go-02
+    :ARG0 (z1 / flock)
+    :time (z2 / after
+              :quant (z3 / little))
+    :time (z4 / lift-01
+              :ARG0 (z5 / he)
+              :ARG1 (z6 / head
+                        :part-of z5)))
+
+# ::id 3
+# ::annotator bart-amr
+# ::snt He was all alone.
+(z0 / alone
+    :domain (z1 / he)
+    :degree (z2 / all))
+
+# ::id 4
+# ::annotator bart-amr
+# ::snt The sun was sinking.
+(z0 / sink-01
+    :ARG1 (z1 / sun))
+
+# ::id 5
+# ::annotator bart-amr
+# ::snt Long shadows came creeping over the ground.
+(z0 / come-01
+    :ARG1 (z1 / shadow
+              :ARG1-of (z2 / long-03)
+              :ARG0-of (z3 / creep-01
+                           :ARG2 (z4 / over
+                                     :op1 (z5 / ground)))))
+
+# ::id 6
+# ::annotator bart-amr
+# ::snt A chilly little wind came creeping with them making scary noises in the grass.
+(z0 / come-01
+    :ARG1 (z1 / wind
+              :mod (z2 / little)
+              :ARG0-of (z3 / creep-01
+                           :accompanier (z4 / they
+                                            :ARG0-of (z5 / make-01
+                                                         :ARG1 (z6 / noise
+                                                                   :ARG0-of (z7 / scary-03))
+                                                         :location (z8 / grass))))
+              :mod (z9 / chill-01)))
+
+# ::id 7
+# ::annotator bart-amr
+# ::snt The Kid shivered as he thought of the terrible Wolf.
+(z0 / shiver-01
+    :ARG1 (z1 / kid)
+    :time (z2 / think-01
+              :ARG0 z1
+              :ARG1 (z3 / wolf
+                        :ARG1-of (z4 / terrible-01))))
+
+# ::id 8
+# ::annotator bart-amr
+# ::snt Then he started wildly over the field, bleating for his mother.
+(z0 / start-01
+    :ARG0 (z1 / he
+              :ARG0-of (z2 / bleat-01
+                           :beneficiary (z3 / person
+                                            :ARG0-of (z4 / have-rel-role-91
+                                                         :ARG1 z1
+                                                         :ARG2 (z5 / mother)))))
+    :manner (z6 / wild)
+    :location (z7 / over
+                  :op1 (z8 / field))
+    :time (z9 / then))
+
+# ::id 9
+# ::annotator bart-amr
+# ::snt But not half-way, near a clump of trees, there was the Wolf!
+(z0 / contrast-01
+    :ARG2 (z1 / be-located-at-91
+              :ARG1 (z2 / wolf)
+              :ARG2 (z3 / near-02
+                        :ARG1 z2
+                        :ARG2 (z4 / clump
+                                  :consist-of (z5 / tree)))
+              :extent (z6 / halfway
+                          :polarity -)))
+
+# ::id 10
+# ::annotator bart-amr
+# ::snt The Kid knew there was little hope for him.
+(z0 / know-01
+    :ARG0 (z1 / kid)
+    :ARG1 (z2 / hopeful-03
+              :ARG1 z1
+              :quant (z3 / little)))
+
+# ::id 11
+# ::annotator bart-amr
+# ::snt Please, Mr. Wolf, he said trembling, I know you are going to eat me.
+(z0 / say-01
+    :mode imperative
+    :polite +
+    :ARG0 (z1 / he
+              :ARG0-of (z2 / tremble-01))
+    :ARG1 (z3 / know-01
+              :ARG0 z1
+              :ARG1 (z4 / eat-01
+                        :ARG0 (z5 / person
+                                  :wiki -
+                                  :name (z6 / name
+                                            :op1 "Mr."
+                                            :op2 "Wolf"))
+                        :ARG1 z1)))
+
+# ::id 12
+# ::annotator bart-amr
+# ::snt But first please pipe me a tune, for I want to dance and be merry as long as I can.
+(z0 / contrast-01
+    :ARG2 (z1 / pipe-01
+              :polite +
+              :mode imperative
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / tune)
+              :ARG2 (z4 / i)
+              :time (z5 / first)
+              :ARG1-of (z6 / cause-01
+                           :ARG0 (z7 / want-01
+                                     :ARG0 z4
+                                     :ARG1 (z8 / and
+                                               :op1 (z9 / dance-01
+                                                        :ARG0 z4)
+                                               :op2 (z10 / merry-02
+                                                         :ARG1 z4))
+                                     :duration (z11 / as-long-as
+                                                    :op1 (z12 / possible-01
+                                                              :ARG1 z8))))))
+
+# ::id 13
+# ::annotator bart-amr
+# ::snt The Wolf liked the idea of a little music before eating, so he struck up a merry tune and the Kid leaped and frisked gaily.
+(z0 / cause-01
+    :ARG0 (z1 / like-01
+              :ARG0 (z2 / wolf)
+              :ARG1 (z3 / idea
+                        :topic (z4 / music
+                                   :mod (z5 / little)
+                                   :time (z6 / before
+                                             :op1 (z7 / eat-01
+                                                      :ARG0 z2)))))
+    :ARG1 (z8 / and
+              :op1 (z9 / strike-up-09
+                       :ARG0 z2
+                       :ARG1 (z10 / tune
+                                  :mod (z11 / merry)))
+              :op2 (z12 / and
+                        :op1 (z13 / leap-02
+                                  :ARG0 (z14 / kid))
+                        :op2 (z15 / frisk-01
+                                  :ARG0 z14)
+                        :manner (z16 / gaily))))
+
+# ::id 14
+# ::annotator bart-amr
+# ::snt Meanwhile, the flock was moving slowly homeward.
+(z0 / move-01
+    :ARG1 (z1 / flock)
+    :ARG2 (z2 / home)
+    :ARG1-of (z3 / slow-05)
+    :time (z4 / meanwhile))
+
+# ::id 15
+# ::annotator bart-amr
+# ::snt In the still evening air the Wolf's piping carried far.
+(z0 / carry-01
+    :ARG0 (z1 / piping
+              :poss (z2 / wolf))
+    :extent (z3 / far)
+    :time (z4 / date-entity
+              :dayperiod (z5 / evening)
+              :mod (z6 / still)))
+
+# ::id 16
+# ::annotator bart-amr
+# ::snt The Shepherd Dogs pricked up their ears.
+(z0 / prick-01
+    :ARG0 (z1 / dog
+              :wiki -
+              :name (z2 / name
+                        :op1 "Shepherd"
+                        :op2 "Dog"))
+    :ARG1 (z3 / ear
+              :part-of z1)
+    :direction (z4 / up))
+
+# ::id 17
+# ::annotator bart-amr
+# ::snt They recognized the song the Wolf sings before a feast, and in a moment they were racing back to the pasture.
+(z0 / and
+    :op1 (z1 / recognize-02
+             :ARG0 (z2 / they)
+             :ARG1 (z3 / song
+                       :ARG1-of (z4 / sing-01
+                                    :ARG0 (z5 / wolf)
+                                    :time (z6 / before
+                                              :op1 (z7 / feast)))))
+    :op2 (z8 / race-02
+             :ARG0 z2
+             :ARG3 (z9 / pasture)
+             :direction (z10 / back)
+             :time (z11 / moment)))
+
+# ::id 18
+# ::annotator bart-amr
+# ::snt The Wolf's song ended suddenly, and as he ran, with the Dogs at his heels, he called himself a fool for turning piper to please a Kid, when he should have stuck to his butcher's trade.
+(z0 / and
+    :op1 (z1 / end-01
+             :ARG1 (z2 / song
+                       :poss (z3 / wolf))
+             :manner (z4 / sudden))
+    :op2 (z5 / call-01
+             :ARG0 z3
+             :ARG1 z3
+             :ARG2 (z6 / fool)
+             :ARG1-of (z7 / cause-01
+                          :ARG0 (z8 / turn-02
+                                    :ARG1 z3
+                                    :ARG2 (z9 / piper)
+                                    :purpose (z10 / please-01
+                                                  :ARG0 z3
+                                                  :ARG1 (z11 / kid))
+                                    :time (z12 / recommend-01
+                                               :ARG1 (z13 / stick-01
+                                                          :ARG1 z3
+                                                          :ARG2 (z14 / trade
+                                                                     :mod (z15 / person
+                                                                               :ARG0-of (z16 / slaughter-01))
+                                                                     :poss z3)))))
+             :time (z17 / run-02
+                        :ARG0 z3
+                        :manner (z18 / heel
+                                     :part-of (z19 / dog)))))
+
+# ::id 19
+# ::annotator bart-amr
+# ::snt The Tortoise, you know, carries his house on his back.
+(z0 / carry-01
+    :ARG0 (z1 / tortoise)
+    :ARG1 (z2 / house
+              :poss z1)
+    :manner (z3 / back
+                :part-of z1)
+    :ARG1-of (z4 / know-01
+                 :ARG0 (z5 / you)))
+
+# ::id 20
+# ::annotator bart-amr
+# ::snt No matter how hard he tries, he cannot leave home.
+(z0 / possible-01
+    :polarity -
+    :ARG1 (z1 / leave-11
+              :ARG0 (z2 / he)
+              :ARG1 (z3 / home))
+    :ARG1-of (z4 / regardless-91
+                 :ARG2 (z5 / thing
+                           :degree-of (z6 / hard-02
+                                          :ARG1 (z7 / try-01
+                                                    :ARG0 z2)))))
+
+# ::id 21
+# ::annotator bart-amr
+# ::snt They say that Jupiter punished him so, because he was such a lazy stay-at-home that he would not go to Jupiters wedding, even when especially invited.
+(z0 / say-01
+    :ARG0 (z1 / they)
+    :ARG1 (z2 / punish-01
+              :ARG0 (z3 / person
+                        :wiki "Jupiter_(m3000 / mythology)"
+                        :name (z4 / name
+                                  :op1 "Jupiter"))
+              :ARG1 (z5 / he)
+              :degree (z6 / so)
+              :ARG1-of (z7 / cause-01
+                           :ARG0 (z8 / have-degree-91
+                                     :ARG1 z5
+                                     :ARG2 (z9 / lazy)
+                                     :ARG3 (z10 / so)
+                                     :ARG6 (z11 / stay-01
+                                                :ARG1 z5
+                                                :location (z12 / home))
+                                     :ARG0-of (z13 / cause-01
+                                                   :ARG1 (z14 / go-02
+                                                              :polarity -
+                                                              :ARG0 z5
+                                                              :ARG4 (z15 / wed-01
+                                                                         :ARG1 z3)
+                                                              :concession (z16 / invite-01
+                                                                               :ARG1 z5
+                                                                               :mod (z17 / especially))))))))
+
+# ::id 22
+# ::annotator bart-amr
+# ::snt After many years, Tortoise began to wish he had gone to that wedding.
+(z0 / begin-01
+    :ARG0 (z1 / animal
+              :wiki -
+              :name (z2 / name
+                        :op1 "Tortoise"))
+    :ARG1 (z3 / wish-01
+              :ARG0 z1
+              :ARG1 (z4 / go-02
+                        :ARG0 z1
+                        :ARG4 (z5 / wed-01
+                                  :mod (z6 / that))))
+    :time (z7 / after
+              :quant (z8 / many
+                         :op1 (z9 / temporal-quantity
+                                  :quant 1
+                                  :unit (z10 / year)))))
+
+# ::id 23
+# ::annotator bart-amr
+# ::snt When he saw how gaily the birds flew about and how the Hare and the Chipmunk and all the other animals ran nimbly by, always eager to see everything there was to be seen, the Tortoise felt very sad and discontented.
+(z0 / feel-01
+    :ARG0 (z1 / tortoise)
+    :ARG1 (z2 / and
+              :op1 (z3 / sad-02
+                       :ARG1 z1
+                       :degree (z4 / very))
+              :op2 (z5 / dissatisfy-01
+                       :ARG1 z1
+                       :degree z4))
+    :time (z6 / see-01
+              :ARG0 z1
+              :ARG1 (z7 / and
+                        :op1 (z8 / gaily
+                                 :degree (z9 / so)
+                                 :domain (z10 / fly-01
+                                              :ARG0 (z11 / bird)
+                                              :direction (z12 / about)))
+                        :op2 (z13 / run-02
+                                  :ARG0 (z14 / and
+                                             :op1 (z15 / Hare)
+                                             :op2 (z16 / chipmunk)
+                                             :op3 (z17 / animal
+                                                       :mod (z18 / other)
+                                                       :mod (z19 / all)))
+                                  :manner (z20 / nimbly)
+                                  :ARG1-of (z21 / cause-01
+                                                :ARG0 (z22 / eager-01
+                                                           :ARG0 z14
+                                                           :ARG1 (z23 / see-01
+                                                                      :ARG0 z14
+                                                                      :ARG1 (z24 / everything
+                                                                                 :ARG1-of (z25 / see-01
+                                                                                               :ARG1-of (z26 / possible-01))))
+                                                           :time (z27 / always)))))))
+
+# ::id 24
+# ::annotator bart-amr
+# ::snt He wanted to see the world too, and there he was with a house on his back and little short legs that could hardly drag him along.
+(z0 / and
+    :op1 (z1 / want-01
+             :ARG0 (z2 / he)
+             :ARG1 (z3 / see-01
+                       :ARG0 z2
+                       :ARG1 (z4 / world))
+             :mod (z5 / too))
+    :op2 (z6 / be-located-at-91
+             :ARG1 z2
+             :ARG2 (z7 / there)
+             :accompanier (z8 / and
+                              :op1 (z9 / house
+                                       :location (z10 / back
+                                                      :part-of z2))
+                              :op2 (z11 / leg
+                                        :ARG1-of (z12 / short-07)
+                                        :mod (z13 / little)
+                                        :ARG0-of (z14 / drag-01
+                                                      :ARG1 z2
+                                                      :mod (z15 / hardly)
+                                                      :direction (z16 / along))))))
+
+# ::id 25
+# ::annotator bart-amr
+# ::snt One day he met a pair of Ducks and told them all his trouble.
+(z0 / and
+    :op1 (z1 / meet-02
+             :ARG0 (z2 / he)
+             :ARG1 (z3 / duck
+                       :quant (z4 / pair))
+             :time (z5 / day
+                       :mod (z6 / one)))
+    :op2 (z7 / tell-01
+             :ARG0 z2
+             :ARG1 (z8 / trouble-01
+                       :ARG1 z2
+                       :mod (z9 / all))
+             :ARG2 z3))
+
+# ::id 26
+# ::annotator bart-amr
+# ::snt We can help you to see the world, said the Ducks.
+(z0 / say-01
+    :ARG0 (z1 / duck)
+    :ARG1 (z2 / possible-01
+              :ARG1 (z3 / help-01
+                        :ARG0 (z4 / we)
+                        :ARG1 (z5 / see-01
+                                  :ARG0 (z6 / world)
+                                  :ARG1 z6)
+                        :ARG2 (z7 / you))))
+
+# ::id 27
+# ::annotator bart-amr
+# ::snt Take hold of this stick with your teeth and we will carry you far up in the air where you can see the whole countryside.
+(z0 / and
+    :op1 (z1 / take-01
+             :mode imperative
+             :ARG0 (z2 / you)
+             :ARG1 (z3 / stick
+                       :mod (z4 / this))
+             :instrument (z5 / tooth
+                             :part-of z2))
+    :op2 (z6 / carry-01
+             :ARG0 (z7 / we)
+             :ARG1 z2
+             :ARG4 (z8 / up-03
+                       :ARG1 z2
+                       :ARG2 (z9 / air)
+                       :extent (z10 / far)
+                       :location-of (z11 / possible-01
+                                         :ARG1 (z12 / see-01
+                                                    :ARG0 z2
+                                                    :ARG1 (z13 / countryside
+                                                               :mod (z14 / whole)))))))
+
+# ::id 28
+# ::annotator bart-amr
+# ::snt But keep quiet or you will be sorry.
+(z0 / contrast-01
+    :ARG2 (z1 / or
+              :op1 (z2 / keep-02
+                       :mode imperative
+                       :ARG0 (z3 / you)
+                       :ARG1 (z4 / quiet-04
+                                 :ARG1 z3))
+              :op2 (z5 / sorry-01
+                       :ARG1 z3)))
+
+# ::id 29
+# ::annotator bart-amr
+# ::snt The Tortoise was very glad indeed.
+(z0 / glad-02
+    :ARG1 (z1 / tortoise)
+    :degree (z2 / very)
+    :mod (z3 / indeed))
+
+# ::id 30
+# ::annotator bart-amr
+# ::snt He seized the stick firmly with his teeth, the two Ducks took hold of it one at each end, and away they sailed up toward the clouds.
+(z0 / and
+    :op1 (z1 / seize-01
+             :ARG0 (z2 / he)
+             :ARG1 (z3 / stick)
+             :ARG2 (z4 / tooth
+                       :part-of z2)
+             :ARG1-of (z5 / firm-03))
+    :op2 (z6 / take-01
+             :ARG0 (z7 / duck
+                       :quant 2)
+             :ARG1 z3
+             :ARG2 (z8 / end
+                       :mod (z9 / each)))
+    :op3 (z10 / sail-01
+              :ARG0 z7
+              :direction (z11 / up)
+              :direction (z12 / cloud)
+              :direction (z13 / away)))
+
+# ::id 31
+# ::annotator bart-amr
+# ::snt Just then a Crow flew by.
+(z0 / fly-01
+    :ARG2 (z1 / crow)
+    :time (z2 / then
+              :mod (z3 / just)))
+
+# ::id 32
+# ::annotator bart-amr
+# ::snt He was very much astonished at the strange sight and cried: This must surely be the King of Tortoises!
+(z0 / and
+    :op1 (z1 / astonish-01
+             :ARG0 (z2 / sight
+                       :mod (z3 / strange))
+             :ARG1 (z4 / he)
+             :degree (z5 / much
+                         :degree (z6 / very)))
+    :op2 (z7 / cry-01
+             :ARG0 z4
+             :ARG1 (z8 / obligate-01
+                       :ARG2 (z9 / person
+                                 :ARG0-of (z10 / have-org-role-91
+                                               :ARG2 (z11 / king
+                                                          :mod (z12 / tortoise)))
+                                 :domain (z13 / this))
+                       :ARG1-of (z14 / sure-02))))
+
+# ::id 33
+# ::annotator bart-amr
+# ::snt Why certainly began the Tortoise.
+(z0 / cause-01
+    :ARG0 (z1 / amr-unknown)
+    :ARG1 (z2 / begin-01
+              :ARG1 (z3 / animal
+                        :wiki "Tortoise"
+                        :name (z4 / name
+                                  :op1 "Tortoise"))
+              :mod (z5 / certain)))
+
+# ::id 34
+# ::annotator bart-amr
+# ::snt But as he opened his mouth to say these foolish words he lost his hold on the stick, and down he fell to the ground, where he was dashed to pieces on a rock.
+(z0 / contrast-01
+    :ARG2 (z1 / and
+              :op1 (z2 / lose-02
+                       :ARG0 (z3 / he)
+                       :ARG1 (z4 / hold-01
+                                 :ARG0 z3
+                                 :ARG1 (z5 / stick))
+                       :time (z6 / open-01
+                                 :ARG0 z3
+                                 :ARG1 (z7 / mouth
+                                           :part-of z3)
+                                 :purpose (z8 / say-01
+                                              :ARG0 z3
+                                              :ARG1 (z9 / word
+                                                        :mod (z10 / foolish)
+                                                        :mod (z11 / this)))))
+              :op2 (z12 / fall-01
+                        :ARG1 z3
+                        :ARG4 (z13 / ground
+                                   :location-of (z14 / dash-01
+                                                     :ARG1 z3
+                                                     :destination (z15 / piece
+                                                                       :domain z3)
+                                                     :location (z16 / rock)))
+                        :direction (z17 / down))))
+
+# ::id 35
+# ::annotator bart-amr
+# ::snt Why in the world do you walk sideways like that?
+(z0 / cause-01
+    :ARG0 (z1 / amr-unknown
+              :location (z2 / world))
+    :ARG1 (z3 / walk-01
+              :ARG0 (z4 / you)
+              :manner (z5 / sideways)
+              :ARG1-of (z6 / resemble-01
+                           :ARG2 (z7 / that))))
+
+# ::id 36
+# ::annotator bart-amr
+# ::snt said a Mother Crab to her son.
+(z0 / say-01
+    :ARG0 (z1 / crab
+              :mod (z2 / mother))
+    :ARG2 (z3 / person
+              :ARG0-of (z4 / have-rel-role-91
+                           :ARG1 z1
+                           :ARG2 (z5 / son))))
+
+# ::id 37
+# ::annotator bart-amr
+# ::snt You should always walk straight forward with your toes turned out.
+(z0 / recommend-01
+    :ARG1 (z1 / walk-01
+              :ARG0 (z2 / you)
+              :ARG1-of (z3 / straight-04)
+              :direction (z4 / forward)
+              :time (z5 / always)
+              :manner (z6 / turn-out-11
+                          :ARG1 (z7 / toe
+                                    :part-of z2))))
+
+# ::id 38
+# ::annotator bart-amr
+# ::snt Show me how to walk, mother dear, answered the little Crab obediently, I want to learn.
+(z0 / multi-sentence
+    :snt1 (z1 / show-01
+              :mode imperative
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / thing
+                        :manner-of (z4 / walk-01
+                                       :ARG0 (z5 / i)))
+              :ARG2 z5
+              :mod (z6 / dear))
+    :snt2 (z7 / answer-01
+              :ARG0 (z8 / i)
+              :ARG1 (z9 / crab
+                        :mod (z10 / little))
+              :ARG2 (z11 / want-01
+                         :ARG0 z8
+                         :ARG1 (z12 / learn-01
+                                    :ARG0 z8))
+              :manner (z13 / obey-01
+                           :ARG0 z8)))
+
+# ::id 39
+# ::annotator bart-amr
+# ::snt So the old Crab tried and tried to walk straight forward.
+(z0 / cause-01
+    :ARG1 (z1 / and
+              :op1 (z2 / try-01
+                       :ARG0 (z3 / crab
+                                 :mod (z4 / old))
+                       :ARG1 (z5 / walk-01
+                                 :ARG0 z3
+                                 :direction (z6 / forward
+                                                :ARG1-of (z7 / straight-04))))
+              :op2 (z8 / try-01
+                       :ARG0 z3
+                       :ARG1 z5)))
+
+# ::id 40
+# ::annotator bart-amr
+# ::snt But she could walk sideways only, like her son.
+(z0 / contrast-01
+    :ARG2 (z1 / possible-01
+              :ARG1 (z2 / walk-01
+                        :ARG0 (z3 / she
+                                  :ARG1-of (z4 / resemble-01
+                                               :ARG2 (z5 / person
+                                                         :ARG0-of (z6 / have-rel-role-91
+                                                                      :ARG1 z3
+                                                                      :ARG2 (z7 / son)))))
+                        :manner (z8 / down-03
+                                    :mod (z9 / only)))))
+
+# ::id 41
+# ::annotator bart-amr
+# ::snt And when she wanted to turn her toes out she tripped and fell on her nose.
+(z0 / and
+    :op2 (z1 / and
+             :op1 (z2 / trip-01
+                      :ARG0 (z3 / she))
+             :op2 (z4 / fall-01
+                      :ARG1 z3
+                      :ARG4 (z5 / nose
+                                :part-of z3))
+             :time (z6 / want-01
+                       :ARG0 z3
+                       :ARG1 (z7 / turn-01
+                                 :ARG0 z3
+                                 :ARG1 (z8 / toe
+                                           :part-of z3)
+                                 :direction (z9 / out)))))
+
+# ::id 42
+# ::annotator bart-amr
+# ::snt An Ox came down to a reedy pool to drink.
+(z0 / come-01
+    :ARG1 (z1 / ox)
+    :ARG4 (z2 / pool
+              :mod (z3 / reedy))
+    :direction (z4 / down)
+    :purpose (z5 / drink-01
+                 :ARG0 z1))
+
+# ::id 43
+# ::annotator bart-amr
+# ::snt As he splashed heavily into the water, he crushed a young Frog into the mud.
+(z0 / crush-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / frog
+              :mod (z3 / young))
+    :prep-into (z4 / mud)
+    :time (z5 / splash-01
+              :ARG0 z1
+              :ARG1 (z6 / water)
+              :manner (z7 / heavy)))
+
+# ::id 44
+# ::annotator bart-amr
+# ::snt The old Frog soon missed the little one and asked his brothers and sisters what had become of him.
+(z0 / and
+    :op1 (z1 / miss-01
+             :ARG0 (z2 / frog
+                       :mod (z3 / old))
+             :ARG1 (z4 / one
+                       :mod (z5 / little))
+             :time (z6 / soon))
+    :op2 (z7 / ask-01
+             :ARG0 z2
+             :ARG1 (z8 / thing
+                       :ARG1-of (z9 / become-01
+                                    :ARG2 z4))
+             :ARG2 (z10 / and
+                        :op1 (z11 / person
+                                  :ARG0-of (z12 / have-rel-role-91
+                                                :ARG1 z2
+                                                :ARG2 (z13 / brother)))
+                        :op2 (z14 / person
+                                  :ARG0-of (z15 / have-rel-role-91
+                                                :ARG1 z2
+                                                :ARG2 (z16 / sister))))))
+
+# ::id 45
+# ::annotator bart-amr
+# ::snt A great big monster, said one of them, stepped on little brother with one of his huge feet!
+(z0 / say-01
+    :ARG0 (z1 / one
+              :ARG1-of (z2 / include-91
+                           :ARG2 (z3 / they)))
+    :ARG1 (z4 / step-01
+              :ARG0 (z5 / monster
+                        :mod (z6 / big
+                                 :mod (z7 / great)))
+              :ARG1 (z8 / person
+                        :ARG0-of (z9 / have-rel-role-91
+                                     :ARG1 z1
+                                     :ARG2 (z10 / brother))
+                        :mod (z11 / little))
+              :ARG2 (z12 / foot
+                         :quant 1
+                         :ARG1-of (z13 / include-91
+                                       :ARG2 (z14 / foot
+                                                  :part-of z5
+                                                  :mod (z15 / huge))))))
+
+# ::id 46
+# ::annotator bart-amr
+# ::snt Big, was he!
+(z0 / big
+    :domain (z1 / he))
+
+# ::id 47
+# ::annotator bart-amr
+# ::snt said the old Frog, puffing herself up.
+(z0 / say-01
+    :ARG0 (z1 / frog
+              :mod (z2 / old)
+              :ARG0-of (z3 / puff-01
+                           :ARG1 z1
+                           :direction (z4 / up))))
+
+# ::id 48
+# ::annotator bart-amr
+# ::snt Was he as big as this?
+(z0 / have-degree-91
+    :ARG1 (z1 / he)
+    :ARG2 (z2 / big)
+    :ARG3 (z3 / equal)
+    :ARG4 (z4 / this)
+    :polarity (z5 / amr-unknown))
+
+# ::id 49
+# ::annotator bart-amr
+# ::snt Oh, much bigger!
+(z0 / have-degree-91
+    :ARG2 (z1 / big)
+    :ARG3 (z2 / more
+              :quant (z3 / much))
+    :mod (z4 / oh
+             :mode expressive))
+
+# ::id 50
+# ::annotator bart-amr
+# ::snt they cried.
+(z0 / cry-02
+    :ARG0 (z1 / they))
+
+# ::id 51
+# ::annotator bart-amr
+# ::snt The Frog puffed up still more.
+(z0 / puff-up-01
+    :ARG1 (z1 / animal
+              :wiki -
+              :name (z2 / name
+                        :op1 "The"
+                        :op2 "Frog"))
+    :mod (z3 / more
+             :mod (z4 / still)))
+
+# ::id 52
+# ::annotator bart-amr
+# ::snt He could not have been bigger than this, she said.
+(z0 / say-01
+    :ARG0 (z1 / she)
+    :ARG1 (z2 / possible-01
+              :polarity -
+              :ARG1 (z3 / have-degree-91
+                        :ARG1 (z4 / he)
+                        :ARG2 (z5 / big)
+                        :ARG3 (z6 / more)
+                        :ARG4 (z7 / this))))
+
+# ::id 53
+# ::annotator bart-amr
+# ::snt But the little Frogs all declared that the monster was much, much bigger and the old Frog kept puffing herself out more and more until, all at once, she burst.
+(z0 / contrast-01
+    :ARG2 (z1 / and
+              :op1 (z2 / declare-02
+                       :ARG0 (z3 / Frog
+                                 :mod (z4 / little)
+                                 :mod (z5 / all))
+                       :ARG1 (z6 / have-degree-91
+                                 :ARG1 (z7 / monster)
+                                 :ARG2 (z8 / big)
+                                 :ARG3 (z9 / more
+                                           :quant (z10 / much))))
+              :op2 (z11 / keep-02
+                        :ARG0 (z12 / Frog
+                                   :mod (z13 / old))
+                        :ARG1 (z14 / puff-01
+                                   :ARG0 z12
+                                   :ARG1 z12
+                                   :ARG1-of (z15 / increase-01))
+                        :time (z16 / until
+                                   :op1 (z17 / burst-02
+                                             :ARG1 z12
+                                             :mod (z18 / at-once-02
+                                                       :mod (z19 / all)))))))
